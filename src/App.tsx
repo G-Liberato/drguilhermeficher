@@ -30,7 +30,7 @@ const EXPERT = {
 
 // Images
 const IMAGES = {
-  hero: "https://i.imgur.com/SOeYFGJ.png",
+  hero: "https://i.imgur.com/tA33hEP.png",
   expert: "https://i.imgur.com/YaD4YgG.jpeg",
   results: [
     "https://i.imgur.com/XJFY7je.jpeg",
@@ -297,26 +297,6 @@ export default function App() {
             "A primeira consulta é o momento de tirar todas as suas dúvidas com total segurança."
           </p>
         </div>
-      </Section>
-
-      {/* 7. MAIS PROVAS */}
-      <Section className="bg-premium-cream overflow-hidden">
-        <h2 className="text-3xl font-serif mb-8 text-center">Bastidores & Atendimento</h2>
-        <div className="flex gap-4 overflow-x-auto pb-6 snap-x no-scrollbar">
-          {[IMAGES.expert, IMAGES.hero, ...IMAGES.results.slice(0, 3)].map((img, i) => (
-            <div key={i} className="min-w-[280px] aspect-[4/5] rounded-2xl overflow-hidden shadow-lg snap-center">
-              <img 
-                src={img} 
-                alt="Bastidores" 
-                className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
-              />
-            </div>
-          ))}
-        </div>
-        <p className="text-center text-sm text-premium-dark/60 italic mt-4">
-          Atendimento personalizado e focado no seu conforto.
-        </p>
       </Section>
 
       {/* 8. CTA FINAL */}
