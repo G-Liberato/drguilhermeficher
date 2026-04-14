@@ -25,7 +25,7 @@ const EXPERT = {
   profession: "Lentes de Porcelana",
   city: "Brooklin - São Paulo",
   whatsapp: "https://api.whatsapp.com/send/?phone=5511943088899&text=Olá Dr. Guilherme, gostaria de agendar minha primeira consulta gratuita.&type=phone_number&app_absent=0",
-  instagram: "https://www.instagram.com/p/CxvMVH2Acbz/?img_index=2",
+  instagram: "https://www.instagram.com/drguilhermeficher/",
 };
 
 // Images
